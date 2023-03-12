@@ -12,7 +12,7 @@ const remove = ( item, items ) =>
 {
     for ( let i = 0; i < items.length; i++ )
     {
-        if ( item[ i ] === item )
+        if ( items[ i ] === item )
         {
             return [ ...items.slice( 0, i ), ...items.slice( i + 1 ) ]
         }
